@@ -2,7 +2,7 @@ import * as fs from 'fs';
 
 export class NotesManager {
 
-    constructor(private basePath: string) {
+    constructor(private _basePath: string) {
     }
 
     getNotePathToTouchedFile(id: string): string {
@@ -17,4 +17,7 @@ export class NotesManager {
         return result;
     }
 
+    get basePath(): string {
+        return this._basePath;
+    }
 }
