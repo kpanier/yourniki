@@ -11,18 +11,28 @@
 	],
 	"activationEvents": [
 		"onCommand:yourniki.openTodayYournal",
-		"onCommand:yourniki.listYournalEntries"
+		"onCommand:yourniki.listYournalEntries",
+		"onCommand:yourniki.addWikiPage",
+		"onCommand:yourniki.openWikiPage"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
 				"command": "yourniki.openTodayYournal",
-				"title": "Open today yournal entry"
+				"title": "YW: Open today yournal entry"
 			},
 			{
 				"command": "yourniki.listYournalEntries",
-				"title": "List yournal entries"
+				"title": "YW: List yournal entries"
+			},
+			{
+				"command": "yourniki.addWikiPage",
+				"title": "YW: Add Perosnal Wiki Page"
+			},
+			{
+				"command": "yourniki.openWikiPage",
+				"title": "YW: Open Personal Wiki Page"
 			}
 		]
 	},

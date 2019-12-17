@@ -20,4 +20,9 @@ export class NotesManager {
     get basePath(): string {
         return this._basePath;
     }
+
+    getWikiPageNames(): string[] {
+        return fs.readdirSync(this.basePath).filter(s => !s.startsWith('.'));
+    }
+
 }
