@@ -2,6 +2,7 @@
 	"name": "yourniki-ext",
 	"displayName": "yourniki-ext",
 	"description": "Yournal and Wiki extension",
+	"publisher": "kp",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.40.0"
