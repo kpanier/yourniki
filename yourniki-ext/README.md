@@ -1,11 +1,21 @@
-# yourniki-ext README
+# Your Niki a vscode extenstion
 
 Yourniki a Yournal and Wiki VSCode Extension
 
 ## Features
 
-Yournal and pesonal wiki for vscode with workspace indipendent data.
+- Create notes
 
-## Requirements
+- Navigate notes
 
-VSCode installed and user space.
+- Create Today note
+
+- Search day notes
+
+## Release Notes
+
+
+### 0.0.1
+
+Initial release of Yourniki first mvp
+

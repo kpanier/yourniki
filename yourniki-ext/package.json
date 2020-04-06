@@ -4,6 +4,7 @@
 	"description": "Yournal and Wiki extension",
 	"publisher": "kp",
 	"version": "0.0.1",
+	"publisher": "aysada",
 	"engines": {
 		"vscode": "^1.40.0"
 	},

@@ -4,5 +4,6 @@ out/
 .nyc_output/
 .vscode/
 coverage/
+*.vsix
 
 test-results.xml
