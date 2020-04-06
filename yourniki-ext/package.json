@@ -3,6 +3,7 @@
 	"displayName": "yourniki-ext",
 	"description": "Yournal and Wiki extension",
 	"version": "0.0.1",
+	"publisher": "aysada",
 	"engines": {
 		"vscode": "^1.40.0"
 	},
